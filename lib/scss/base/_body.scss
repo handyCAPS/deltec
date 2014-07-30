@@ -19,11 +19,12 @@
 .corper {
 	margin-bottom: 24px;
 	text-align: center;
-	[class^="icon-"]:before, [class*=" icon-"]:before  {
+	[class^="fa-"]:before, [class*=" fa-"]:before  {
 		font-size: 142px;
 		color: $grey;
 		margin: 0;
 		padding: 0;
+		text-shadow: 0px 2px 1px $white;
 	}
 }
 
@@ -31,6 +32,10 @@
 
 .icon-wrap {
 	display: inline-block;
-	width: 50%;
-	background-color: darken($grey,8);
+	width: calc(50% - 12px);
+	background-color: darken($grey,6);
+	padding: 24px;
+		&:first-of-type {
+			margin-right: 24px;
+		}
 }

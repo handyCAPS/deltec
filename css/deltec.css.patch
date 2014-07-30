@@ -5,21 +5,21 @@ Index: css/deltec.css
 @@ -190,12 +190,16 @@
    content: '\e822'; }
  
- @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/DelTec\/lib\/scss\/base\/_tags\.scss}line{font-family:\000032}}
+ @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/deltec\/lib\/scss\/base\/_tags\.scss}line{font-family:\000032}}
  html {
 +  -webkit-box-sizing: border-box;
 +  -moz-box-sizing: border-box;
    box-sizing: border-box; }
  
- @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/DelTec\/lib\/scss\/base\/_tags\.scss}line{font-family:\000036}}
+ @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/deltec\/lib\/scss\/base\/_tags\.scss}line{font-family:\000036}}
  *, *:before, *:after {
 +  -webkit-box-sizing: inherit;
 +  -moz-box-sizing: inherit;
    box-sizing: inherit; }
  
- @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/DelTec\/lib\/scss\/base\/_tags\.scss}line{font-family:\0000310}}
+ @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/deltec\/lib\/scss\/base\/_tags\.scss}line{font-family:\0000310}}
  body {
-@@ -312,17 +316,20 @@
+@@ -317,17 +321,20 @@
    height: 80px;
    display: inline-block;
    background-color: #0498c0;
@@ -31,7 +31,7 @@ Index: css/deltec.css
    font-family: 'Lato', sans-serif;
 +  -webkit-transition: 0.3s;
    transition: 0.3s; }
- @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/DelTec\/lib\/scss\/components\/_buttons\.scss}line{font-family:\0000318}}
+ @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/deltec\/lib\/scss\/components\/_buttons\.scss}line{font-family:\0000318}}
    .button--action:active, .button--action:focus {
      margin-top: 4px;
      margin-left: 4px;
