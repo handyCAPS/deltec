@@ -30,11 +30,11 @@
 
 
 
-.icon-wrap {
+.diff {
 	display: inline-block;
 	width: calc(50% - 12px);
 	background-color: darken($grey,6);
-	padding: 24px;
+	padding: 24px 24px 0;
 		&:first-of-type {
 			margin-right: 24px;
 		}

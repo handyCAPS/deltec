@@ -13,8 +13,16 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+h1, h2, h3 {
+	margin-bottom: 24px;
+}
+
 a {
 	text-decoration: none;
+	color: $link-color;
+		&:hover {
+			color: $link-alt-color;
+		}
 }
 
 img {

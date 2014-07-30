@@ -19,7 +19,7 @@ Index: css/deltec.css
  
  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/deltec\/lib\/scss\/base\/_tags\.scss}line{font-family:\0000310}}
  body {
-@@ -317,17 +321,20 @@
+@@ -326,17 +330,20 @@
    height: 80px;
    display: inline-block;
    background-color: #0498c0;
