@@ -1,0 +1,36 @@
+
+
+
+.inner-wrap {
+	@include clearfix;
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.action-button-wrap {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin-bottom: 24px;
+	padding-bottom: 4px;
+}
+
+.corper {
+	margin-bottom: 24px;
+	text-align: center;
+	[class^="icon-"]:before, [class*=" icon-"]:before  {
+		font-size: 142px;
+		color: $grey;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
+.icon-wrap {
+	display: inline-block;
+	width: 50%;
+	background-color: darken($grey,8);
+}

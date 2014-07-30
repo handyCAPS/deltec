@@ -1,0 +1,17 @@
+{
+  "name": "DelTec",
+  "version": "0.1.0",
+  "authors": [
+    "Tim Doppenberg <info@timdoppenberg.nl>"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.6.0",
+    "normalize.css": "~3.0.1"
+  }
+}

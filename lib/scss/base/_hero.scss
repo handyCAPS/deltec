@@ -1,0 +1,12 @@
+
+
+.header--hero {
+	@include clearfix;
+	margin-bottom: 24px;
+	.imgs {
+		@include span-columns(8);
+			img {
+				width: 100%;
+			}
+	}
+}

@@ -1,0 +1,34 @@
+
+
+.button--action {
+	width: 25%;
+	min-width: 200px;
+	height: 80px;
+	display: inline-block;
+	background-color: $light;
+	border: none;
+	box-shadow: 1px 1px 0 $medium,
+							2px 2px 0 $medium,
+							3px 3px 0 $medium,
+							4px 4px 0 $medium;
+	color: $grey;
+	font-size: 32px;
+	font-family: 'Lato', sans-serif;
+	transition: 0.3s;
+		&:active, &:focus {
+			margin-top: 4px;
+			margin-left: 4px;
+			box-shadow: none;
+			color: $medium;
+			font-size: 36px;
+			text-shadow: 0 0 8px $grey;
+		}
+		&:first-of-type {
+			position: absolute;
+			left: 0;
+		}
+		&:last-of-type {
+			position: absolute;
+			right: 0;
+		}
+}
